@@ -1,0 +1,23 @@
+@import url(base.css);
+
+.cmp-header{
+    min-height: 86px;
+    background-color: var(--skyblue-header);
+}
+
+.cmp-header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cmp-header__container-logo img{
+    height: 28px;
+}
+
+.cmp-header__container-menu ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
